@@ -1,0 +1,29 @@
+mlflow - 
+used for pipelining and mlops.
+can use in pycharm
+whenever it is run, it creates a new mlrun folder containg various files like the yml,pickle file file
+ml flow ui gives a link that shows all info about the training and running
+
+mlflow with dagshub
+
+pickle - storing python objects
+
+import pickle
+
+wrapping a object in pickle file -
+list = [1,2,3]
+file = "mylist.pkl"
+fileobj = open(file,'wb')
+pickle.dump(list,fileobj)
+fileobj.close()
+
+loading -
+file = "mylist.pkl"
+fileobj = open(file,'rb')
+mylist - pickle.load(fileobj)
+print(mylist)
+
+app = Flask(__name__) - it suggest that if we are in current file then it returns main, else it returns name of the python script
+
+@app.route('/') - if we are in the current directory
+render_template - return the whole template file
