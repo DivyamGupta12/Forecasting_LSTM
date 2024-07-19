@@ -1,1 +1,6 @@
-# Productionalization of the Multivariate Time Series Forecast Model by deploying a web app created using HTML, Python & Flask on Heroku
+## Forecasting sales using LSTM
+
+- This project utilises the Long Short Term Memory(LSTM) network in order to make predictions for the sales of a store
+
+- The HTML, CSS and Flask are utilised for the web-app
+
